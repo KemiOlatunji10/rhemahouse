@@ -7,7 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MatToolbarModule } from '@angular/material';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+
 import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
 
 @NgModule({
@@ -20,7 +21,7 @@ import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
     AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
-    MatToolbarModule,
+    MatAutocompleteModule,
     FormsModule,
     ReactiveFormsModule,
     MdbCheckboxModule 
