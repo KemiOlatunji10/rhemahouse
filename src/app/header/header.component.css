@@ -1,0 +1,18 @@
+.filler {
+    flex: 1 1 auto;
+ }
+ .gap {
+    margin-right: 10px;
+ }
+
+ .nav{
+    color: azure;
+    background-color: navy;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ .logo {
+    max-width: 50%;
+    margin-right: 17%;
+  }
+  
